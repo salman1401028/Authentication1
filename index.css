@@ -1,0 +1,62 @@
+.signup{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    font-size: 2em;
+}
+
+.login{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.textSize{
+    font-size: 50px;
+    margin: 10px;
+    border-radius:10px;
+}
+
+.textSize1{
+    font-size: 35px;
+}
+
+#signup-valid{
+    color: green;
+    display: none;
+}
+
+#login-valid{
+    color: green;
+    display: none;
+}
+
+#login-invalid{
+    color: red;
+    display: none;
+}
+
+#validation{
+    color: red;
+    display: none;
+}
+
+
+
+#weak{
+    color: red;
+    display: none;
+}
+
+#medium{
+    color: rgb(152, 152, 19);
+    display: none;
+}
+
+#strong{
+    color: green;
+    display: none;
+}
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 style="text-align: center; color: blue">AUTHENTICATION PAGE</h1><br>
+    <div class="signup" >
+        <input class="textSize" type="password" id="signup-password" placeholder="Create your password" onkeyup="passwordStrength()"><br>
+        <p id="weak">password strength: Weak.</p>
+        <p id="medium">password strength: Medium.</p>
+        <p id="strong">password strength: Strong.</p>
+        <p id="validation">**Enter atleast 8 character and must include combination of character and numeric values.</p>
+        <p class="textSize1" id="signup-valid" >Password saved successfully</p>
+        <button class="textSize" onclick="signup()">Sign Up</button>
+    </div>
+
+    <div class="login">
+        <input class="textSize" type="password" id="login-password" placeholder="Enter password"><br>
+        <p class="textSize1" id="login-valid" >Password correct, login access granted!</p>
+        <p class="textSize1" id="login-invalid" >Password incorrect, password denied!</p>
+        <button class="textSize" onclick="login()">Login</button>
+    </div>
+
+    <script src="index.js">
+
+        //id="signup-valid-message"   id="login-valid-message"    id="login-invalid-message"
+    </script>
+</body>
+</html>
